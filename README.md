@@ -27,8 +27,9 @@
 
 ## Примеры запросов
 
-`GET /api/v1/posts/`
-`{
+```
+GET /api/v1/posts/
+{
   "count": 123,
   "next": "http://api.example.org/accounts/?offset=400&limit=100",
   "previous": "http://api.example.org/accounts/?offset=200&limit=100",
@@ -42,21 +43,26 @@
       "group": 0
     }
   ]
-}`
+}
+```
 
 `POST /api/v1/posts/`
 Content type JSON:
-`{
+```
+{
   "text": "string",
   "image": "string",
   "group": 0
-}`
+}
+```
 Response:
-`{
+```
+{
   "id": 0,
   "author": "string",
   "text": "string",
   "pub_date": "2019-08-24T14:15:22Z",
   "image": "string",
   "group": 0
-}`
+}
+```
