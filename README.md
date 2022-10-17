@@ -47,6 +47,7 @@ GET /api/v1/posts/
 ```
 
 `POST /api/v1/posts/`
+
 Content type JSON:
 ```
 {
